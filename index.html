@@ -105,12 +105,12 @@
         }
 
         .name {
-            font-size: 1.2rem;
+            font-size: 1.55rem;
             font-weight: 700;
             text-align: center;
             margin-bottom: 0.6rem;
-            letter-spacing: -0.005em;
-            line-height: 1.35;
+            letter-spacing: -0.01em;
+            line-height: 1.3;
         }
 
         .role {
@@ -132,23 +132,16 @@
         /* ===== Degree and Training 条目 ===== */
         .edu-entry { margin-bottom: 1.4rem; }
         .edu-entry:last-child { margin-bottom: 0; }
-        .edu-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            gap: 1rem;
-            flex-wrap: wrap;
+        .edu-program {
+            font-weight: 500;
             margin-bottom: 0.15rem;
-        }
-        .edu-program { font-weight: 500; }
-        .edu-date {
-            color: var(--text-soft);
-            font-size: 0.9rem;
-            white-space: nowrap;
         }
         .edu-school {
             color: var(--text-soft);
-            font-style: italic;
+        }
+        .edu-date {
+            color: var(--text-soft);
+            font-size: 0.92rem;
         }
 
         /* ===== Works in Progress 列表 ===== */
@@ -167,17 +160,20 @@
         .contact {
             list-style: none;
             font-size: 0.95rem;
-            padding-left: 0.5rem;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.5rem;
         }
-        .contact li { margin-bottom: 0.65rem; }
+        .contact li { margin: 0; }
 
         .contact a {
             display: inline-flex;
             align-items: center;
-            gap: 0.65rem;
+            gap: 0.4rem;
             color: var(--text-soft);
             transition: color 0.2s ease;
-            word-break: break-all;
         }
         .contact a:hover { color: var(--text); }
         .contact svg { flex-shrink: 0; }
@@ -240,7 +236,8 @@
                 top: auto;
             }
             .contact {
-                padding-left: 0;
+                justify-content: center;
+                gap: 1.5rem;
             }
             .site-nav-inner { padding: 1rem 1.5rem; }
             .site-nav nav {
@@ -316,25 +313,16 @@
             <section id="degree-and-training">
                 <h2>Degree and Training</h2>
                 <div class="edu-entry">
-                    <div class="edu-header">
-                        <span class="edu-program">B.Soc.Sc. Government and Public Administration</span>
-                        <span class="edu-date">2023–present</span>
-                    </div>
-                    <div class="edu-school">University of Macau</div>
+                    <div class="edu-program">B.Soc.Sc. Government and Public Administration</div>
+                    <div class="edu-school">University of Macau <span class="edu-date">| 2023–present</span></div>
                 </div>
                 <div class="edu-entry">
-                    <div class="edu-header">
-                        <span class="edu-program">Summer School in Asia and Global Economy</span>
-                        <span class="edu-date">2026</span>
-                    </div>
-                    <div class="edu-school">National University of Singapore (NUS)</div>
+                    <div class="edu-program">Summer School in Asia and Global Economy</div>
+                    <div class="edu-school">National University of Singapore <span class="edu-date">| 2026</span></div>
                 </div>
                 <div class="edu-entry">
-                    <div class="edu-header">
-                        <span class="edu-program">Summer School in Econometrics and Data Analysis</span>
-                        <span class="edu-date">2024</span>
-                    </div>
-                    <div class="edu-school">London School of Economics (LSE)</div>
+                    <div class="edu-program">Summer School in Econometrics and Data Analysis</div>
+                    <div class="edu-school">London School of Economics <span class="edu-date">| 2024</span></div>
                 </div>
             </section>
 
