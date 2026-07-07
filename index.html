@@ -33,8 +33,31 @@
 
   section p {
     text-align: left;
-    hyphens: auto;
-    -webkit-hyphens: auto;
+    hyphens: none;
+    -webkit-hyphens: none;
+  }
+
+  .papers-list {
+    margin-top: 0;
+    padding-left: 24px;
+  }
+
+  .papers-list li {
+    margin-bottom: 14px;
+  }
+
+  .papers-list details {
+    margin-top: 6px;
+  }
+
+  .papers-list summary {
+    cursor: pointer;
+  }
+
+  .papers-list details p {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-style: normal;
   }
 
   /* Adjust text and link colours */
@@ -50,11 +73,11 @@
 
   a,
   a:visited {
-    color: #0056b3;
+    color: #0066cc;
   }
 
   a:hover {
-    color: #0056b3;
+    color: #0066cc;
     text-decoration: underline;
   }
 
@@ -64,7 +87,7 @@
     text-decoration: none;
   }
 </style>
-
+    
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -104,28 +127,47 @@
         
         <p>I am a fourth-year undergraduate student majoring in <a href="https://gpa.fss.um.edu.mo/bach_ipa_all_2026/" target="_blank" rel="noopener noreferrer">International and Public Affairs</a> at the <a href="https://www.um.edu.mo/" target="_blank" rel="noopener noreferrer">University of Macau</a>, where I received a full scholarship. From 2025 to 2027, I also serve as the Head of Academics of the <a href="https://gpa.fss.um.edu.mo/youth-association-for-international-affairs-yaia/" target="_blank" rel="noopener noreferrer">Youth Association of International Affairs</a>.</p>
 
-        <p>My research centers on applied microeconomics, particularly <b>development economics</b>, <b>political economy</b>, and <b>labor economics</b>. The following sections outline my research interests, experience, and the educational background that has supported my academic development.</p>
+<p>
+  Focusing on the empirical experiences of China and other East Asian countries, I have broad interests in applied microeconomics, with particular emphasis on <b>Development Economics</b>, <b>Political Economy</b> and <b>Labor Economics</b>. I also draw on perspectives from open economy, institutions, and economic history, as these are especially important for understanding the region, while engaging more secondarily with the role of government and economic policy.
+</p>
         
+<p>
+  My academic background combines political science, political economy, and quantitative empirical methods. Through coursework and research experience, I have developed a foundation in literature review, research design, statistical analysis, R programming, computational text analysis, survey experiments, and social network analysis.
+</p>        
         <p>Please find my latest <a href="CV_Tin_I_Zhang_260706.pdf" target="_blank" rel="noopener noreferrer">CV</a> here.</p>
 
 
         
         <h1 id="research">Research</h1>
 
-        <h2 style="margin-bottom: 18px;">Research Interests</h2>
+        <h2 style="margin-bottom: 18px;">Research Interests and Skills</h2>
         
 <p>My primary research interest asks how open economy, domestic institutions, and development strategies interact to reshape production structures and distributional outcomes in China and East Asia, and how these transformations further generate socioeconomic tensions across periods of growth and slowdown, especially through their consequences for beliefs and attitudes, labor-market dynamics, and education.</p>
 
-<p>In practice, one of my ongoing projects uses a survey experiment to examine how exposure to foreign anti-elite rhetoric affects beliefs about inequality, labor-market conditions, and social mobility in China, and whether these effects vary with individuals’ economic insecurity. This project connects cross-border information flows to broader questions about development, distribution, and socioeconomic pressure.</p>
-
 <p>A secondary line of my research analyzes how central and local officials navigate complex institutional and political-economic constraints to formulate economic policies and make political choices. This is particularly connected to issues of urbanization, infrastructure, and regional development.</p>
 
-<p>I have completed extensive training in quantitative and empirical methods with excellent academic performance, alongside long-term engagement and substantial hands-on experience in political science and political economy. This background has equipped me with a solid foundation in literature review, research design, and data analysis, with methodological strengths in econometric and statistical methods, formal theory, R programming, computational text analysis, survey experiments, and social network analysis.</p>        
-
+<p>
+  My training and research experience have prepared me to approach these questions through empirical economics. Alongside coursework in statistics, econometrics, game theory, political economy, data science, and economics, I have gained hands-on experience with causal inference, survey experiments, computational text analysis, and large-scale data construction. My political science background also provides substantive knowledge of institutions, governance, and political-economic processes, which I hope to use as an asset in developing empirically grounded research in economics.
+</p>
+        
 <h2 style="margin-top: 24px; margin-bottom: 18px;">Selected Papers in Progress</h2>
 
-        <p>Tracking Bill Changes in China's Two-phase Lawmaking Process (with <a href="https://jiyingjiang.com/" target="_blank" rel="noopener noreferrer">Jiying Jiang</a>)</p>
-        <p>When Negative Foreign News Backfires: Economic Insecurity, Anti-Elite Frames, and Political Beliefs in China</p>
+        <ol class="papers-list">
+          <li>
+            Tracking Bill Changes in China's Two-phase Lawmaking Process: A Computational Text Analysis Approach (with <a href="https://jiyingjiang.com/" target="_blank" rel="noopener noreferrer">Jiying Jiang</a>)
+            <details>
+              <summary><em>[Abstract]</em></summary>
+              <p>Construct and maintain an original legislative dataset covering all 486 laws publicly released during the 11th–14th National People’s Congress (NPC) and 381 public consultation records; systematically collect and digitize all draft versions and final enacted texts of 98 laws adopted through a two-phase lawmaking process, matching and tracking article- and paragraph-level revisions across drafts.</p>
+            </details>
+          </li>
+          <li>
+            When Negative Foreign News Backfires: Economic Insecurity, Anti-Elite Frames, and Political Beliefs in China
+            <details>
+              <summary><em>[Abstract]</em></summary>
+              <p>This ongoing project examines how foreign anti-elite rhetoric shapes economic beliefs in China. Using a survey experiment, it tests whether exposure to narratives about inequality, labor-market hardship, and blocked social mobility abroad affects individuals’ perceptions of domestic inequality, labor-market fairness, and opportunities for upward mobility, and whether these effects vary with economic insecurity. The project is motivated by a tension in existing accounts of foreign negative information: such information is often expected to strengthen domestic confidence through favorable cross-national comparison, by making foreign systems appear less legitimate or less desirable. I instead examine whether anti-elite rhetoric can generate a different effect when its distributive claims resonate with respondents’ own socioeconomic pressures. By linking cross-border information flows to belief formation about inequality and mobility, the project contributes to political economy research on how material insecurity conditions responses to information and narratives about distribution.</p>
+            </details>
+          </li>
+        </ol>
 
        
         
